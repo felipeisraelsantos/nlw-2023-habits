@@ -243,3 +243,7 @@ Para criar o arquivo execute o comando
 ```bash
 npx prisma generate
 ```
+Para executar arquivo seed.ts use o comando 
+```bash
+npx prisma db seed
+```
