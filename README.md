@@ -221,3 +221,25 @@ Instalar fontes, acessando google fontes, pesquise por fonte **`Inter`** para ve
 ```bash
 npx expo install expo-font @expo-google-fonts/inter
 ```
+
+Observação:
+- Para cada alteração no **`schema.prisma`** execute o comando:
+
+```sql
+npx prisma migrate dev
+```
+Caso queira visualizar o diagrama do banco de dados instale o **`prisma erd generator`** execute o comando
+```sql
+npm i -D prisma-erd-generator @mermaid-js/mermaid-cli
+```
+dentro do **`schema.prisma`** insira o trecho a baixo
+```json
+generator erd {
+  provider = "prisma-erd-generator"
+}
+```
+Para criar o arquivo execute o comando
+
+```bash
+npx prisma generate
+```
