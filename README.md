@@ -247,3 +247,21 @@ Para executar arquivo seed.ts use o comando
 ```bash
 npx prisma db seed
 ```
+- Instalando ZOD
+
+Zod é uma biblioteca de declaração e validação de esquema TypeScript-first. O Zod foi projetado para ser o mais amigável possível ao desenvolvedor. O objetivo é eliminar declarações de tipo duplicadas.
+
+execute o comando:
+```bash
+npm i zod
+```
+- Instalando 
+
+Day.js é uma biblioteca JavaScript minimalista que analisa, valida, manipula e exibe datas e horas para navegadores modernos com uma API amplamente compatível com Moment.js. Se você usa Moment.js, já sabe como usar Day.js.
+
+execute o comando:
+
+```bash
+npm i dayjs
+```
+
